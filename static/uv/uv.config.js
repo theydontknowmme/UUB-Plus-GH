@@ -6,5 +6,5 @@ self.__uv$config = {
     handler: 'https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.handler.js',
     bundle: 'https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.bundle.js',
     config: 'https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.config.js',
-    sw: '/static/uv/uv.sw.js',
+    sw: 'https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.sw.js',
 };

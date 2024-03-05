@@ -1,5 +1,5 @@
-importScripts('/static/uv/uv.bundle.js');
-importScripts('/static/uv/uv.config.js');
+importScripts('https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.bundle.js');
+importScripts('https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.config.js');
 
 class UVServiceWorker extends EventEmitter {     
     constructor(config = __uv$config) {
@@ -52,7 +52,7 @@ class UVServiceWorker extends EventEmitter {
         };
     };
     async fetch({ request }) {
-        if (!request.url.startsWith(location.origin + (this.config.prefix || '/service/'))) {
+        if (!request.url.startsWith(location.origin + (this.config.prefix || 'https://ubgultra.github.io/UUB-Plus-GH/service/'))) {
             return fetch(request);
         };
         try {

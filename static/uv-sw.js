@@ -1,4 +1,4 @@
-importScripts("/static/uv/uv.sw.js");
+importScripts("https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.sw.js");
 
 const sw = new UVServiceWorker();
 

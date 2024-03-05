@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/UUB-Plus-GH/static/tiw/',
-    bare:'https://ubgultra.github.io/UUB-Plus-GH/barething',
+    bare:'https://ubgultra.github.io/UUB-Plus-GH/barestuff',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: 'https://ubgultra.github.io/UUB-Plus-GH/static/uv/uv.handler.js',
